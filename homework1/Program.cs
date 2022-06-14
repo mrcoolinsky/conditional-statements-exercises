@@ -184,8 +184,54 @@ namespace homework1
 
             //10
 
+            int x = 40;
+            int y = 55;
+            int z = 65;
 
+            if (x<y+z && y<x+z && z<x+y)
+            {
+                Console.WriteLine("Można zbudować trójkąt");
+            }
+            else
+            {
+                Console.WriteLine("Nie można zbudować trójkąta");
+            }
 
+            //11
+
+            Console.WriteLine("Please enter a grade");
+            string grade = Console.ReadLine();
+            int gradeInt;
+            Int32.TryParse(grade, out gradeInt);
+
+            if (gradeInt == 1)
+            {
+                Console.WriteLine("Niedostateczny");
+            }
+            else if (gradeInt == 2)
+            {
+                Console.WriteLine("Dopuszczający");
+            }
+            else if (gradeInt == 3)
+            {
+                Console.WriteLine("Dostateczny");
+            }
+            else if (gradeInt == 4)
+            {
+                Console.WriteLine("Dobry");
+            }
+            else if (gradeInt == 5)
+            {
+                Console.WriteLine("Bardzo dobry");
+            }
+            else if (gradeInt == 6)
+            {
+                Console.WriteLine("Celujący");
+            }
+            else
+            {
+                Console.WriteLine("Nie ma takiej oceny :)");
+            }
         }
     }
 }
