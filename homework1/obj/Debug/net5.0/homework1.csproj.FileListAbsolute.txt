@@ -1,0 +1,16 @@
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\bin\Debug\net5.0\homework1.exe
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\bin\Debug\net5.0\homework1.deps.json
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\bin\Debug\net5.0\homework1.runtimeconfig.json
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\bin\Debug\net5.0\homework1.runtimeconfig.dev.json
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\bin\Debug\net5.0\homework1.dll
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\bin\Debug\net5.0\homework1.pdb
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\obj\Debug\net5.0\homework1.csproj.AssemblyReference.cache
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\obj\Debug\net5.0\homework1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\obj\Debug\net5.0\homework1.AssemblyInfoInputs.cache
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\obj\Debug\net5.0\homework1.AssemblyInfo.cs
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\obj\Debug\net5.0\homework1.csproj.CoreCompileInputs.cache
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\obj\Debug\net5.0\homework1.dll
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\obj\Debug\net5.0\refint\homework1.dll
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\obj\Debug\net5.0\homework1.pdb
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\obj\Debug\net5.0\homework1.genruntimeconfig.cache
+C:\Users\wikto\Code\C#\Kurs .net\homework1\homework1\obj\Debug\net5.0\ref\homework1.dll
