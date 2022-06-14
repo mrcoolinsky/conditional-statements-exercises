@@ -236,7 +236,7 @@ namespace homework1
             int dayInt;
             Int32.TryParse(day, out dayInt);
 
-            switch(dayInt)
+            switch (dayInt)
             {
                 case 1:
                     Console.WriteLine("Poniedziałek");
@@ -262,9 +262,61 @@ namespace homework1
                 default:
                     Console.WriteLine("Nie ma takiego dnia :)");
                     break;
+            }
 
-            }    
+            //13
+            Console.WriteLine("Please enter first number");
+            string numberOne = Console.ReadLine();
+            int numberOneInt;
+            Int32.TryParse(numberOne, out numberOneInt);
 
+            Console.WriteLine("Please enter second number");
+            string numberSecond = Console.ReadLine();
+            int numberSecondInt;
+            Int32.TryParse(numberSecond, out numberSecondInt);
+
+            Console.WriteLine("What do you want to do?");
+            Console.WriteLine("1. Add");
+            Console.WriteLine("2. Substract");
+            Console.WriteLine("3. Multiply");
+            Console.WriteLine("4. Divide");
+
+            string option = Console.ReadLine();
+            int optionInt;
+            Int32.TryParse(option, out optionInt);
+            decimal result;
+
+            switch(optionInt)
+            {
+                case 1:
+                    result = numberOneInt + numberSecondInt;
+                    Console.WriteLine($"Your result: {result}");
+                    break;
+                case 2:
+                    result = numberOneInt - numberSecondInt;
+                    Console.WriteLine($"Your result: {result}");
+                    break;
+                case 3:
+                    result = numberOneInt * numberSecondInt;
+                    Console.WriteLine($"Your result: {result}");
+                    break;
+                case 4:
+                    if (numberOneInt == 0 && numberSecondInt ==0)
+                    {
+                        Console.WriteLine("You cannot divide by 0");
+                    }
+                    else
+                    {
+                        result = (decimal)numberOneInt / (decimal)numberSecondInt;
+                        Console.WriteLine($"Your result: {result}");
+                    }                    
+                    break;
+                default:
+                    {
+                        Console.WriteLine("Please enter another option!");
+                        break;
+                    }
+            }
         }
     }
 }
