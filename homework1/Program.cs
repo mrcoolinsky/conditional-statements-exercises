@@ -204,34 +204,67 @@ namespace homework1
             int gradeInt;
             Int32.TryParse(grade, out gradeInt);
 
-            if (gradeInt == 1)
+            switch(gradeInt)
             {
-                Console.WriteLine("Niedostateczny");
+                case 1:
+                    Console.WriteLine("Niedostateczny");
+                    break;
+                case 2:
+                    Console.WriteLine("Dopuszczający");
+                    break;
+                case 3:
+                    Console.WriteLine("Dostateczny");
+                    break;
+                case 4:
+                    Console.WriteLine("Dobry");
+                    break;
+                case 5:
+                    Console.WriteLine("Bardzo dobry");
+                    break;
+                case 6:
+                    Console.WriteLine("Celujący");
+                    break;
+                default:
+                    Console.WriteLine("Nie ma takiej oceny :)");
+                    break;
             }
-            else if (gradeInt == 2)
+
+            //12
+
+            Console.WriteLine("Please enter a number of the day");
+            string day = Console.ReadLine();
+            int dayInt;
+            Int32.TryParse(day, out dayInt);
+
+            switch(dayInt)
             {
-                Console.WriteLine("Dopuszczający");
-            }
-            else if (gradeInt == 3)
-            {
-                Console.WriteLine("Dostateczny");
-            }
-            else if (gradeInt == 4)
-            {
-                Console.WriteLine("Dobry");
-            }
-            else if (gradeInt == 5)
-            {
-                Console.WriteLine("Bardzo dobry");
-            }
-            else if (gradeInt == 6)
-            {
-                Console.WriteLine("Celujący");
-            }
-            else
-            {
-                Console.WriteLine("Nie ma takiej oceny :)");
-            }
+                case 1:
+                    Console.WriteLine("Poniedziałek");
+                    break;
+                case 2:
+                    Console.WriteLine("Wtorek");
+                    break;
+                case 3:
+                    Console.WriteLine("Środa");
+                    break;
+                case 4:
+                    Console.WriteLine("Czwartek");
+                    break;
+                case 5:
+                    Console.WriteLine("Piątek");
+                    break;
+                case 6:
+                    Console.WriteLine("Sobota");
+                    break;
+                case 7:
+                    Console.WriteLine("Niedziela");
+                    break;
+                default:
+                    Console.WriteLine("Nie ma takiego dnia :)");
+                    break;
+
+            }    
+
         }
     }
 }
