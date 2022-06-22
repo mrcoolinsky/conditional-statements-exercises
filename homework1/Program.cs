@@ -59,7 +59,7 @@ namespace homework1
             }
             else if (yearInt % 100 == 0 && yearInt % 400 == 0)
             {
-                Console.WriteLine("The year is leap");
+               Console.WriteLine("The year is leap");
             }
             else
             {
@@ -77,7 +77,7 @@ namespace homework1
             {
                 Console.WriteLine("Możesz zostać posłem lub premierem");
             }
-            else if (ageInt >= 30 && ageInt < 35)
+            else if (ageInt < 35)
             {
                 Console.WriteLine("Możesz kandydować do senatu");
             }
@@ -301,7 +301,7 @@ namespace homework1
                     Console.WriteLine($"Your result: {result}");
                     break;
                 case 4:
-                    if (numberOneInt == 0 && numberSecondInt ==0)
+                    if (numberSecondInt == 0)
                     {
                         Console.WriteLine("You cannot divide by 0");
                     }
