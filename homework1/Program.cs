@@ -53,14 +53,14 @@ namespace homework1
             int yearInt;
             Int32.TryParse(year, out yearInt);
 
-            if (yearInt % 4 == 0 && yearInt % 100 != 0)
+            if (yearInt % 4 == 0 && yearInt % 100 != 0 || yearInt % 400 == 0)
             {
                 Console.WriteLine("The year is leap");
             }
-            else if (yearInt % 100 == 0 && yearInt % 400 == 0)
-            {
-               Console.WriteLine("The year is leap");
-            }
+        //    else if (yearInt % 100 == 0 && yearInt % 400 == 0)
+          //  {
+            //   Console.WriteLine("The year is leap");
+            //}
             else
             {
                 Console.WriteLine("The year is normal");
